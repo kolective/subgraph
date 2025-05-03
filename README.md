@@ -54,7 +54,7 @@ Modify the **ponder.config.ts** file to add/remove contracts or update network s
 export default createConfig({
   networks: {
     baseSepolia: {
-      chainId: 84532,
+      chainId: 50002,
       transport: http(process.env.PONDER_RPC_URL_1),
     },
   },
